@@ -4,11 +4,12 @@ import Icon from '../assets/icons/hand-holding-dumbbell.png';
 
 const BodyPart = ({ item, setBodyPart, bodyPart }) => (
   <Stack
-    type="button"
+    type="button" // <-- because we can click on it =, set the type to button
     alignItems="center"
     justifyContent="center"
     className="bodyPart-card"
-    sx={{ //styles for the card that is selected to have a border top on it, cld b done in a better way
+    sx={{ //styles to make it look like propper cards
+      //styles for the card that is selected to have a border top on it, 
         borderTop: bodyPart === item ?  '4px solid #43DDE6' : '',
         backgroundColor: '#fff', 
         borderBottomLeftRadius: '20px', 
@@ -22,7 +23,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
     }}
   >
-    <img src={Icon} alt="dumbbell" style={{ width: '80px', height: '80px' }} />
+    <img src={Icon} alt="dumbbell" style={{ width: '90px', height: '90px' }} />
     <Typography 
     fontSize="24px" 
     fontWeight="bold" 

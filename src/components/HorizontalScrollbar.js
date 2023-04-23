@@ -1,6 +1,6 @@
-//coming from searchbar
-
+//rendering in searchExercises
 import React, { useContext } from 'react';
+//this is a react package to be used to scroll through calds
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import { Box, Typography } from '@mui/material';
 
@@ -40,7 +40,13 @@ const HorizontalScrollbar = ({ data, bodyParts, setBodyPart, bodyPart }) => (
         title={item.id || item}
         m="0 40px"
       >
-        {bodyParts ? <BodyPart item={item} setBodyPart={setBodyPart} bodyPart={bodyPart} /> : <ExerciseCard exercise={item} /> }
+        {bodyParts ? 
+        <BodyPart //bodyPart cards..
+          item={item} // <-- item is actually the body part name??
+          setBodyPart={setBodyPart} 
+          bodyPart={bodyPart} 
+        /> 
+        : <ExerciseCard exercise={item} /> }
       </Box>
     ))}
   </ScrollMenu>

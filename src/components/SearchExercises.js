@@ -7,12 +7,15 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 import HorizontalScrollbar from './HorizontalScrollbar';
 
 
-const SearchExercises = ({ bodyPart, setBodyPart }) => {
+const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
   const [search, setSearch] = useState('');
-  const [exercises, setExercises] = useState([])
+  //field for exercise state that will be displayed when user is searching
+  //const [exercises, setExercises] = useState([]); <-- moved to home page
+  ///for useEffect
   const [bodyParts, setBodyParts] = useState([]);
 
   // useEffect to fetch the categories as soon as the website loads/renders
+  // calling it only at the start means dependency array will be empty
   useEffect(() => {
     const fetchExercisesData = async () => {
       const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
@@ -28,12 +31,12 @@ const SearchExercises = ({ bodyPart, setBodyPart }) => {
     if (search) {
       //first parameter is actual url from code snippets in RapidAPI
       const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
-// we are filtering 
+// we are filtering through the exercise items
       const searchedExercises = exercisesData.filter(
-        (item) => item.name.toLowerCase().includes(search)
-               || item.target.toLowerCase().includes(search)
-               || item.equipment.toLowerCase().includes(search)
-               || item.bodyPart.toLowerCase().includes(search),
+        (exercise) => exercise.name.toLowerCase().includes(search)
+               || exercise.target.toLowerCase().includes(search)
+               || exercise.equipment.toLowerCase().includes(search)
+               || exercise.bodyPart.toLowerCase().includes(search),
       );
 
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
@@ -77,11 +80,15 @@ const SearchExercises = ({ bodyPart, setBodyPart }) => {
         >
           Search
         </Button>
-
       </Box>
 
       <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
-        <HorizontalScrollbar data={bodyParts} bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
+        <HorizontalScrollbar 
+         data={bodyParts} 
+         bodyParts 
+         setBodyPart={setBodyPart} //<--selected body part
+         bodyPart={bodyPart} //<-- selected body part, the one we click
+         />
       </Box>
 
     </Stack>

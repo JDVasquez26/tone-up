@@ -19,8 +19,10 @@ export const youtubeOptions = {
 };
 
 export const fetchData = async (url, options) => {
-  const res = await fetch(url, options);
-  const data = await res.json();
+  const response = await fetch(url, options);
+  // since it's fecth, we must extract the data, this is an abstraction, meaning we're going to need the url and options
+  // when calling this function in components(SearchExercises.js, )
+  const data = await response.json();
   console.log(data)
 
   return data;

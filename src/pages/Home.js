@@ -6,9 +6,11 @@ import HeroBanner from '../components/HeroBanner';
 import SearchExercises from '../components/SearchExercises';
 
 const Home = () => {
-  // changes to these states will be happening all accross the application
+  // changes to these two states will be happening all 
+  // accross the application, not just on the search exercises component
   const [exercises, setExercises] = useState([]);
-  const [bodyPart, setBodyPart] = useState('all')
+  const [bodyPart, setBodyPart] = useState('all');
+//We can use the react context api to handle all the props as well
 
   return (
     <Box>
