@@ -9,6 +9,8 @@ import Loader from './Loader';
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
+  // UseEffect for any time to bodyPart changes..
+  // Important for when clicking the body part categories in searchExcises components
   useEffect(() => {
     const fetchExercisesData = async () => {
       let exercisesData = [];
@@ -16,12 +18,13 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       if (bodyPart === 'all') {
         exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
       } else {
+        //this is based on the caterogy for body part
         exercisesData = await fetchData(`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`, exerciseOptions);
       }
 
       setExercises(exercisesData);
     };
-
+//must be called in order for the function to work and change the execisesData
     fetchExercisesData();
   }, [bodyPart]);
 

@@ -1,6 +1,6 @@
 // Special fetchData utility function, this func
 // is reused, we are making a connection w/ rapidapi
-//To be used in the SearchExercises
+//To be used in the SearchExercises.js and Exercises.js
 
 export const exerciseOptions = {
   method: 'GET',
