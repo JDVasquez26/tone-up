@@ -31,6 +31,7 @@ const RightArrow = () => {
   );
 };
 
+//USED FOR THE BODY PARTS CARDS & EXERCISE CARDS
 const HorizontalScrollbar = ({ data, bodyParts, setBodyPart, bodyPart }) => (
   <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
     {data.map((item) => (
@@ -40,9 +41,9 @@ const HorizontalScrollbar = ({ data, bodyParts, setBodyPart, bodyPart }) => (
         title={item.id || item}
         m="0 40px"
       >
-        {bodyParts ? 
+        {bodyParts ? //<-- if it's  bodyParts
         <BodyPart //bodyPart cards..
-          item={item} // <-- item is actually the body part name??
+          item={item} // <-- 
           setBodyPart={setBodyPart} 
           bodyPart={bodyPart} 
         /> 

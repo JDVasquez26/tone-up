@@ -4,10 +4,25 @@ import Logo from '../assets/icons/weight-plate.png';
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#FFF3F4">
-    <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
+    <Stack 
+     gap="40px" 
+     flexWrap="wrap" 
+     px="40px" 
+     pt="24px"
+    sx={{ alignItems: 'center' }} 
+    >
       <img src={Logo} alt="logo" />
     </Stack>
-    <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">Move your body because you ❤️ it</Typography>
+
+    <Typography 
+     variant="h5" 
+     mt="41px" 
+     textAlign="center" 
+     pb="40px"
+    sx={{ fontSize: { lg: '28px', xs: '20px' } }} 
+    >
+      Move your body because you ❤️ it!
+    </Typography>
   </Box>
 );
 
