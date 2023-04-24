@@ -124,7 +124,6 @@ export const monday = [
     },
 ]
 
-/// need to double check these exercises
 //glutes
 export const tuesday = [
     {
@@ -141,7 +140,7 @@ export const tuesday = [
     },
     {
         id: 3,
-        name: "donkey kicks", //<--
+        name: "bench hip extension", 
         sets: 3,
         reps: 10
     },
@@ -153,19 +152,19 @@ export const tuesday = [
     },
     {
         id: 5,
-        name: "jump knee tucks", //<--
+        name: "dumbbell lunge", 
         sets: 3,
         reps: 10
     },
     {
         id: 6,
-        name: "fly steps",  //<--
+        name: "kettlebell lunge pass through",  
         sets: 3,
         reps: 10
     },
     {
         id: 7,
-        name: "one leg bridge",
+        name: "dumbbell step-up", 
         sets: 3,
         reps: 10
     },
@@ -183,7 +182,7 @@ export const tuesday = [
     },
 ]
 
-
+/// need to double check these exercises
 //triceps
 export const wednesday = [
     {

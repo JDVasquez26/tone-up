@@ -47,6 +47,15 @@ const Navbar = () => {
         style={{textDecoration:'none', color:'#3A1212'}}
         >Exercises
         </a>
+
+        <Link to="/weekly-routine"
+          style={{textDecoration:'none', color:'#3A1212'}}
+        >
+          Jest's Routine
+        </Link>
+
+       
+
       </Stack>
 
     </Stack>

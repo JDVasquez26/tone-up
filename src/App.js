@@ -10,6 +10,7 @@ import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WeeklyRoutine from './pages/WeeklyRoutine';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
+      <Route path="/weekly-routine" element={<WeeklyRoutine />} />
     </Routes>
     <Footer />
   </Box>
