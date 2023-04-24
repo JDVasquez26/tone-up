@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, Stack, Typography, Button } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 
 
 import Image from "../assets/images/fitness-apps.png"
@@ -22,7 +22,7 @@ const HeroBanner = () => {
         fontWeight="600"
         fontSize="26px"
         >
-            Fitness Club
+            Fitness Made Easy
         </Typography>
         
         <Typography
@@ -33,7 +33,7 @@ const HeroBanner = () => {
           fontSize: {lg: '44px', xs: '40px'}
         }}
         >
-            Sweat, Smile <br /> and Repeat
+            Workout because you love your body,<br />  not because you hate it.
         </Typography>
 
         <Typography
