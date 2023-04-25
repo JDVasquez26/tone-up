@@ -1,11 +1,11 @@
 /* eslint-disable no-lone-blocks */
 import React, { useEffect, useState } from "react";
-import Pagination from "@mui/material/Pagination";
+
 import { Box, Stack, Typography } from "@mui/material";
 
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 
-import { routine } from "../routineData";
+import { sunday } from "../routineData";
 
 import HorizontalScrollbar from "../components/HorizontalScrollbar";
 

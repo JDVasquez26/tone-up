@@ -1,4 +1,4 @@
-export const routine = [
+export const sunday = [
     {
         id: 0,
         name: "flexion leg sit up (bent knee)",
@@ -80,6 +80,9 @@ export const routine = [
          day: 'Sunday',
         target:"abs"
     },
+];
+
+export const monday = [
     {
         id: 10,
         name: "forward lunge (male)",
@@ -152,6 +155,9 @@ export const routine = [
         reps: 10,
         day: 'Monday'
     },
+];
+
+export const tuesday = [
     {
         id: 20,
         name: "bodyweight drop jump squat",
