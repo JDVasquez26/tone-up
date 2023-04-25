@@ -19,15 +19,6 @@ export const sunday = [
         day: "Sunday"
     },
     {
-        bodyPart:"upper legs",
-        equipment:"body weight",
-        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0459.gif",
-        id:"0459",
-        name:"flutter kicks",
-        target:"glutes",
-        day: "Sunday"
-    },
-    {
         bodyPart:"waist",
         equipment:"body weight",
         gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0464.gif",
@@ -94,161 +85,171 @@ export const sunday = [
 
 export const monday = [
     {
-        id: 10,
-        name: "forward lunge (male)",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3470.gif",
+        id:"3470",
+        name:"forward lunge (male)",
+        target:"glutes",
+        day: 'Monday'
         
     },
     {
-        id: 11,
-        name: "walking high knees lunge",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"cardio",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3655.gif",
+        id:"3655",
+        name:"walking high knees lunge",
+        target:"cardiovascular system",
+        day: 'Monday'
         
     },
     {
-        id: 12,
-        name: "mountain climber",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"cardio",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0630.gif",
+        id:"0630",
+        name:"mountain climber",
+        target:"cardiovascular system",
+        day: 'Monday'
     },
     {
-        id: 13,
-        name: "bodyweight drop jump squat",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3543.gif",
+        id:"3543",
+        name:"bodyweight drop jump squat",
+        target:"glutes",
+        day: 'Monday'
     },
     {
-        id: 14,
-        name: "lunge with jump",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3582.gif",
+        id:"3582",
+        name:"lunge with jump",
+        target:"glutes",
+        day: 'Monday'
     },
     {
-        id: 15,
-        name: "dumbbell goblet squat",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"upper legs",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1760.gif",
+        id:"1760",
+        name:"dumbbell goblet squat",
+        target:"quads",
+        day: 'Monday'
     },
     {
-        id: 16,
-        name: "quads",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/2368.gif",
+        id:"2368",
+        name:"split squats",
+        target:"quads",
+        day: 'Monday'
     },
     {
-        id: 17,
-        name: "split squats",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
-    },
-    {
-        id: 18,
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0130.gif",
+        id:"0130",
         name:"bench hip extension",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        target:"glutes",
+        day: 'Monday'
     },
     {
-        id: 19,
-        name: "side bridge hip abduction",
-        sets: 3,
-        reps: 10,
-        day: 'Monday',
-        target:'quads'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1774.gif",
+        id:"1774",
+        name:"side bridge hip abduction",
+        target:"abductors",
+        day: 'Monday'
     },
 ];
 
 export const tuesday = [
     {
-        id: 20,
-        name: "bodyweight drop jump squat",
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3543.gif",
+        id:"3543",
+        name:"bodyweight drop jump squat",
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 21,
-        name: "burpee",
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"cardio",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1160.gif",
+        id:"1160",
+        name:"burpee",
+        target:"cardiovascular system",
+        day: "Tuesday",
     },
     {
-        id: 22,
-        name: "bench hip extension", 
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0130.gif",
+        id:"0130",
+        name:"bench hip extension",
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 23,
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3013.gif",
+        id:"3013",
         name:"low glute bridge on floor",
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 24,
-        name: "dumbbell lunge", 
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"upper legs",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0336.gif",
+        id:"0336",
+        name:"dumbbell lunge",
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 25,
-        name: "kettlebell lunge pass through",  
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"upper legs",
+        equipment:"kettlebell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0536.gif",
+        id:"0536",
+        name:"kettlebell lunge pass through",
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 26,
-        name: "dumbbell step-up", 
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"upper legs",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0431.gif",
+        id:"0431",
+        name:"dumbbell step-up",
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 27,
-        name: "pelvic tilt into bridge",
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1422.gif",
+        id:"1422",
+        name:"pelvic tilt into bridge",
+        target:"glutes",
+        day: "Tuesday",
     },
     {
-        id: 28,
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3561.gif",
+        id:"3561",
         name:"glute bridge march",
-        sets: 3,
-        reps: 10,
-        day: 'Tuesday',
-        target: 'glutes'
+        target:"glutes",
+        day: "Tuesday",
     },
 ]
 
@@ -357,6 +358,15 @@ export const thursday = [
         reps: 10,
         target: "biceps"
     },
+    {
+        bodyPart:"upper arms",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1658.gif",
+        id:"1658",
+        name:"dumbbell lunge with bicep curl",
+        target:"biceps",
+        day: "Thursday",
+    }
 ]
 
 //BACK
