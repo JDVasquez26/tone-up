@@ -1,84 +1,94 @@
 export const sunday = [
     {
-        id: 0,
-        name: "flexion leg sit up (bent knee)",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0456.gif",
+        id:"0456",
+        name:"flexion leg sit up (bent knee)",
+        target:"abs",
+        day: "Sunday"
 
     },
     {
-        id: 1,
-        name: "reverse crunch",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0872.gif",
+        id:"0872",
+        name:"reverse crunch",
+        target:"abs",
+        day: "Sunday"
     },
     {
-        id: 2,
-        name: "flutter kicks",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"upper legs",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0459.gif",
+        id:"0459",
+        name:"flutter kicks",
+        target:"glutes",
+        day: "Sunday"
     },
     {
-        id: 3,
-        name: "front plank with twist",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0464.gif",
+        id:"0464",
+        name:"front plank with twist",
+        target:"abs",
+        day: "Sunday",
     },
     {
-        id: 4,
-        name: "flexion leg sit up (straight arm)",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0457.gif",
+        id:"0457",
+        name:"flexion leg sit up (straight arm)",
+        target:"abs",
+        day: "Sunday"
     },
     {
-        id: 5,
-        name: "cross body crunch",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0262.gif",
+        id:"0262",
+        name:"cross body crunch",
+        target:"abs",
+        day:"Sunday"
     },
     {
-        id: 6,
-        name: "lying leg raise flat bench",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0620.gif",
+        id:"0620",
+        name:"lying leg raise flat bench",
+        target:"abs",
+        day:"Sunday"
     },
     {
-        id: 7,
-        name: "inchworm",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1471.gif",
+        id:"1471",
+        name:"inchworm",
+        target:"abs",
+        day:"Sunday"
     },
     {
-        id: 8,
-        name: "bridge - mountain climber (cross body)",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/2466.gif",
+        id:"2466",
+        name:"bridge - mountain climber (cross body)",
+        target:"abs",
+        day:"Sunday"
     },
     {
-        id: 9,
-        name: "russian twist",
-        sets: 3,
-        reps: 10,
-         day: 'Sunday',
-        target:"abs"
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0687.gif",
+        id:"0687",
+        name:"russian twist",
+        target:"abs",
+        day:"Sunday"
     },
 ];
 

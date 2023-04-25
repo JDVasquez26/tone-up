@@ -10,7 +10,7 @@ import { sunday } from "../routineData";
 import HorizontalScrollbar from "../components/HorizontalScrollbar";
 
 // import ExerciseCard from './ExerciseCard';
-// import Loader from './Loader';
+import Loader from '../components/Loader';
 
 const WeeklyRoutine = () => {
   const [exercises, setExercises] = useState([]);
@@ -36,7 +36,26 @@ const WeeklyRoutine = () => {
     <Box sx={{ mt: { lg: "96px", xs: "60px" } }}>
       <Box sx={{ mt: { lg: "100px", xs: "0px" } }}>
         
-        {exercises.map((exercise) => {
+        {/* SUNDAY*/}
+        <Typography 
+        fontWeight={700} 
+        color="#000" 
+        mb="33px"
+        sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
+        >
+        Sunday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
+            ABS</span> workout exercises
+        </Typography>
+
+        <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
+        {sunday.length !== 0 ?
+        <HorizontalScrollbar data={sunday} /> 
+        : <Loader />}
+        </Stack>
+
+
+
+        {/* {exercises.map((exercise) => {
             return (
                 <>
                 {sunday.length ?
@@ -78,7 +97,7 @@ const WeeklyRoutine = () => {
                 } 
                 </>
             )
-        })}
+        })} */}
       </Box>
     </Box>
   );
