@@ -28,9 +28,9 @@ const WeeklyRoutine = () => {
     fetchExercisesData();
   }, []);
 
-  console.log(exercises);
+//   console.log(exercises);
 
-  if (!routine.length) return <div>No Data</div>;
+//   if (!routine.length) return <div>No Data</div>;
 
   return (
     <Box sx={{ mt: { lg: "96px", xs: "60px" } }}>
@@ -39,8 +39,8 @@ const WeeklyRoutine = () => {
         {exercises.map((exercise) => {
             return (
                 <>
-                {routine.length ?
-                    routine.map((item) => {
+                {sunday.length ?
+                    sunday.map((item) => {
                         return (
                             // Sunday
                             <>
@@ -65,7 +65,7 @@ const WeeklyRoutine = () => {
                                         </Typography>
 
                                         <Stack direction="row" sx={{ p: 2, position: "relative" }}>
-                                        <HorizontalScrollbar data={routine} />
+                                        <HorizontalScrollbar data={sunday} />
                                         </Stack>
                                     </>
                         ) : (

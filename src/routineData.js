@@ -89,6 +89,7 @@ export const monday = [
         sets: 3,
         reps: 10,
         day: 'Monday',
+        target:'quads'
         
     },
     {
@@ -97,6 +98,7 @@ export const monday = [
         sets: 3,
         reps: 10,
         day: 'Monday',
+        target:'quads'
         
     },
     {
@@ -104,56 +106,64 @@ export const monday = [
         name: "mountain climber",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 13,
         name: "bodyweight drop jump squat",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 14,
         name: "lunge with jump",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 15,
         name: "dumbbell goblet squat",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 16,
         name: "quads",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 17,
         name: "split squats",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 18,
         name:"bench hip extension",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
     {
         id: 19,
         name: "side bridge hip abduction",
         sets: 3,
         reps: 10,
-        day: 'Monday'
+        day: 'Monday',
+        target:'quads'
     },
 ];
 
@@ -239,49 +249,57 @@ export const wednesday = [
         id: 1,
         name: "close grip pushups",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 2,
         name: "tricep dips",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 3,
         name: "tricep extensions",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 4,
         name: "get ups",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 5,
         name: "punches",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 6,
         name: "side to side chops",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 7,
         name: "one leg bridge",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
     {
         id: 8,
         name: "hip thrusts",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'triceps'
     },
 ]
 
@@ -291,37 +309,43 @@ export const thursday = [
         id: 1,
         name: "leg curls",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: "biceps"
     },
     {
         id: 2,
         name: "hiking pack curls",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: "biceps"
     },
     {
         id: 3,
         name: "door frame rows",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: "biceps"
     },
     {
         id: 4,
         name: "body rows",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: "biceps"
     },
     {
         id: 5,
         name: "sitting pull ups",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: "biceps"
     },
     {
         id: 6,
         name: "pseudo planche",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: "biceps"
     },
 ]
 
@@ -331,55 +355,64 @@ export const friday = [
         id: 1,
         name: "elbows lifts",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 2,
         name: "superman",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 3,
         name: "2MIN STAR PLANK",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 4,
         name: "alt arm/leg plank",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 5,
         name: "full arch",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 6,
         name: "pull up alternatives ",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 7,
         name: "one leg bridge",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 8,
         name: "hip thrusts",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
     {
         id: 9,
         name:"one leg hip thrusts",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'back'
     },
 ]
 
@@ -389,36 +422,42 @@ export const saturday = [
         id: 1,
         name: "push ups ",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'chest'
     },
     {
         id: 2,
         name: "plank rotations",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'chest'
     },
     {
         id: 3,
         name: "chest squares",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'chest'
     },
     {
         id: 4,
         name: "shoulder press",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'chest'
     },
     {
         id: 5,
         name: "shoulder taps",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'chest'
     },
     {
         id: 6,
         name: "clapping push ups",
         sets: 3,
-        reps: 10
+        reps: 10,
+        target: 'chest'
     }
 ]
