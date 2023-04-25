@@ -21,7 +21,7 @@ const Footer = () => (
      pb="40px"
     sx={{ fontSize: { lg: '28px', xs: '20px' } }} 
     >
-      Move your body because you ❤️ it!
+      Keep your squats low and your standars high ❤️ !
     </Typography>
   </Box>
 );
