@@ -124,6 +124,43 @@ const WeeklyRoutine = () => {
         : <Loader />}
         </Stack>
 
+        {/* FRIDAY*/}
+        <Typography 
+        fontWeight={700} 
+        color="#000" 
+        mb="33px"
+        sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
+        >
+        Friday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
+            BACK</span> workout exercises
+        </Typography>
+
+        <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
+        {friday.length !== 0 ?
+        <HorizontalScrollbar data={friday} /> 
+        : <Loader />}
+        </Stack>
+
+
+        {/* SATURDAY*/}
+        <Typography 
+        fontWeight={700} 
+        color="#000" 
+        mb="33px"
+        sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
+        >
+        Saturday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
+            CHEST</span> workout exercises
+        </Typography>
+
+        <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
+        {saturday.length !== 0 ?
+        <HorizontalScrollbar data={saturday} /> 
+        : <Loader />}
+        </Stack>
+
+        
+
 
 
         {/* {exercises.map((exercise) => {
