@@ -376,28 +376,20 @@ export const thursday = [
 export const friday = [
     {
         bodyPart:"back",
-        equipment:"dumbbell",
-        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/2327.gif",
-        id:"2327",
-        name:"dumbbell reverse grip row (female)",
-        target:"upper back",
-        day: "Friday"
-    },
-    {
-        bodyPart:"back",
         equipment:"body weight",
         gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1405.gif",
         id:"1405",
         name:"back pec stretch",
         target:"lats",
-        day: "Friday"
+        day: "Friday"  
     },
     {
+              
         bodyPart:"back",
-        equipment:"body weight",
-        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3156.gif",
-        id:"3156",
-        name:"bodyweight standing close-grip one arm row",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/2327.gif",
+        id:"2327",
+        name:"dumbbell reverse grip row (female)",
         target:"upper back",
         day: "Friday"
     },
@@ -447,7 +439,7 @@ export const saturday = [
         equipment:"body weight",
         gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1273.gif",
         id:"1273",
-        name:"clap push up",
+        name:"clap push up (on knees)",
         target:"pectorals",
         day: "Saturday"
 

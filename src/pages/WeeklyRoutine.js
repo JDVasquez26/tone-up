@@ -45,7 +45,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Sunday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            ABS</span> workout exercises
+            ABS</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -62,7 +62,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Monday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            QUADS</span> workout exercises
+            QUADS</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -80,7 +80,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Tuesday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            GLUTES</span> workout exercises
+            GLUTES</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -98,7 +98,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Wednesday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            TRICEPS</span> workout exercises
+            TRICEPS</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -115,7 +115,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Thursday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            TRICEPS</span> workout exercises
+            BICEPS</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -132,7 +132,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Friday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            BACK</span> workout exercises
+            BACK</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -150,7 +150,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Saturday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            CHEST</span> workout exercises
+            CHEST</span> workout exercises (10 reps / 3 sets)
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
