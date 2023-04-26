@@ -375,112 +375,126 @@ export const thursday = [
 //BACK
 export const friday = [
     {
-        id: 1,
-        name: "elbows lifts",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/2327.gif",
+        id:"2327",
+        name:"dumbbell reverse grip row (female)",
+        target:"upper back",
+        day: "Friday"
     },
     {
-        id: 2,
-        name: "superman",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1405.gif",
+        id:"1405",
+        name:"back pec stretch",
+        target:"lats",
+        day: "Friday"
     },
     {
-        id: 3,
-        name: "2MIN STAR PLANK",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3156.gif",
+        id:"3156",
+        name:"bodyweight standing close-grip one arm row",
+        target:"upper back",
+        day: "Friday"
     },
     {
-        id: 4,
-        name: "alt arm/leg plank",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0293.gif",
+        id:"0293",
+        name:"dumbbell bent over row",
+        target:"upper back",
+        day: "Friday"
     },
     {
-        id: 5,
-        name: "full arch",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3168.gif",
+        id:"3168",
+        name:"bodyweight squatting row",
+        target:"upper back",
+        day: "Friday"
     },
     {
-        id: 6,
-        name: "pull up alternatives ",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3664.gif",
+        id:"3664",
+        name:"dumbbell side plank with rear fly",
+        target:"upper back",
+        day: "Friday"
     },
+ 
     {
-        id: 7,
-        name: "one leg bridge",
-        sets: 3,
-        reps: 10,
-        target: 'back'
-    },
-    {
-        id: 8,
-        name: "hip thrusts",
-        sets: 3,
-        reps: 10,
-        target: 'back'
-    },
-    {
-        id: 9,
-        name:"one leg hip thrusts",
-        sets: 3,
-        reps: 10,
-        target: 'back'
+        bodyPart:"back",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3541.gif",
+        id:"3541",
+        name:"dumbbell incline y-raise",
+        target:"upper back",
+        day: "Friday"
     },
 ]
 
 //chest
 export const saturday = [
     {
-        id: 1,
-        name: "push ups ",
-        sets: 3,
-        reps: 10,
-        target: 'chest'
+        bodyPart:"chest",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1273.gif",
+        id:"1273",
+        name:"clap push up",
+        target:"pectorals",
+        day: "Saturday"
+
     },
     {
-        id: 2,
-        name: "plank rotations",
-        sets: 3,
-        reps: 10,
-        target: 'chest'
+        bodyPart:"chest",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1689.gif",
+        id:"1689",
+        name:"push and pull bodyweight",
+        target:"pectorals",
+        day: "Saturday"
     },
     {
-        id: 3,
-        name: "chest squares",
-        sets: 3,
-        reps: 10,
-        target: 'chest'
+        bodyPart:"chest",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0288.gif",
+        id:"0288",
+        name:"dumbbell around pullover",
+        target:"pectorals",
+        day: "Saturday"
     },
     {
-        id: 4,
-        name: "shoulder press",
-        sets: 3,
-        reps: 10,
-        target: 'chest'
+        bodyPart:"chest",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0289.gif",
+        id:"0289",
+        name:"dumbbell bench press",
+        target:"pectorals",
+        day: "Saturday"
     },
     {
-        id: 5,
-        name: "shoulder taps",
-        sets: 3,
-        reps: 10,
-        target: 'chest'
+        bodyPart:"waist",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/3699.gif",
+        id:"3699",
+        name:"shoulder tap",
+        target:"abs",
+        day: "Saturday"
     },
     {
-        id: 6,
-        name: "clapping push ups",
-        sets: 3,
-        reps: 10,
-        target: 'chest'
+        bodyPart:"chest",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0319.gif",
+        id:"0319",
+        name:"dumbbell incline fly",
+        target:"pectorals",
+        day: "Saturday"
     }
 ]
