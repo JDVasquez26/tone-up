@@ -16,7 +16,7 @@ const Navbar = () => {
       // for smaller devices (small(sm) and xsmall(sx))
       //  mt(changing margin top for small and xmall devices)
       sx={{ 
-        gap: {sm: '122px', xs: '40px'}, 
+        gap: {sm: '122px', xs: '10px'}, 
         mt: {sm:'32px', xs:'20px'},
         justifyContent:'none',  // <-- to keep everything at the start
       }}
@@ -33,7 +33,8 @@ const Navbar = () => {
       <Stack
         direction="row"
         gap="40px"
-        fontSize="24px"
+        sx={{ fontSize: { lg: '24px', xs: '15px' } }} 
+        // fontSize="24px"
         alignItems="flex-end"
       >
         <Link to="/"
