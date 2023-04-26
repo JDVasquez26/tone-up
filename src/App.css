@@ -1,5 +1,5 @@
 body {
-    font-family: 'Josefin Sans';
+    font-family: 'Alegreya';
     background-color: #FFFAFB;
   }
   
@@ -60,7 +60,7 @@ body {
     width: 430px;
     height: 480px;
     margin-top: -40px;
-  
+    border-radius: 50%;  
   }
   
   .exercise-card {

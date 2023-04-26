@@ -2,9 +2,11 @@ import React from 'react';
 
 import { Box, Typography, Button } from '@mui/material';
 
-
 import Image from "../assets/images/fitness-apps.png"
-
+import Heart from "../assets/icons/heart.gif"
+import Stretching from"../assets/icons/stretching.gif"
+import HomeStretch from "../assets/icons/homestretch.gif"
+{/* <img src={Heart} alt="wait until the page loads" style={{ width: 80, height: 80 }}/> */}
 const HeroBanner = () => {
   return (
     <Box
@@ -41,7 +43,7 @@ const HeroBanner = () => {
           lineheight="35px"
           fontFamily="Alegreya"
         >
-            Check out the most effective exercises
+            Check out some exercises that will make you stronger!
         </Typography>
 
         <Button
@@ -68,7 +70,7 @@ const HeroBanner = () => {
         </Typography>
 
         <img 
-        src={Image} 
+        src={Stretching} 
         alt='banner'
         className='hero-banner-img'
        />

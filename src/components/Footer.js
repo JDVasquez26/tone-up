@@ -3,7 +3,9 @@ import { Box, Stack, Typography } from '@mui/material';
 import Logo from '../assets/icons/weight-plate.png';
 
 const Footer = () => (
-  <Box mt="80px" bgcolor="#FFF3F4">
+  <Box mt="80px" 
+  // bgcolor="#FFF3F4"
+  >
     <Stack 
      gap="40px" 
      flexWrap="wrap" 
