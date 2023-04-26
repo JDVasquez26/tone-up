@@ -62,7 +62,7 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Monday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            ABS</span> workout exercises
+            QUADS</span> workout exercises
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
@@ -80,12 +80,47 @@ const WeeklyRoutine = () => {
         sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
         >
         Tuesday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
-            ABS</span> workout exercises
+            GLUTES</span> workout exercises
         </Typography>
 
         <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
-        {monday.length !== 0 ?
+        {tuesday.length !== 0 ?
         <HorizontalScrollbar data={tuesday} /> 
+        : <Loader />}
+        </Stack>
+
+
+        {/* WEDNESDAY*/}
+        <Typography 
+        fontWeight={700} 
+        color="#000" 
+        mb="33px"
+        sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
+        >
+        Wednesday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
+            TRICEPS</span> workout exercises
+        </Typography>
+
+        <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
+        {wednesday.length !== 0 ?
+        <HorizontalScrollbar data={wednesday} /> 
+        : <Loader />}
+        </Stack>
+
+        {/* THURSDAY*/}
+        <Typography 
+        fontWeight={700} 
+        color="#000" 
+        mb="33px"
+        sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} 
+        >
+        Thursday's <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>
+            TRICEPS</span> workout exercises
+        </Typography>
+
+        <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
+        {thursday.length !== 0 ?
+        <HorizontalScrollbar data={thursday} /> 
         : <Loader />}
         </Stack>
 

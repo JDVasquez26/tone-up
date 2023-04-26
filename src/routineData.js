@@ -252,112 +252,114 @@ export const tuesday = [
         day: "Tuesday",
     },
 ]
-
-/// need to double check these exercises
 //triceps
 export const wednesday = [
     {
-        id: 1,
-        name: "close grip pushups",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
+        bodyPart:"lower arms",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1421.gif",
+        id:"1421",
+        name:"modified push up to lower arms",
+        target:"forearms",
+        day: "Wednesday"
     },
     {
-        id: 2,
-        name: "tricep dips",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
+        bodyPart:"upper arms",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0129.gif",
+        id:"0129",
+        name:"bench dip (knees bent)",
+        target:"triceps",
+        day: "Wednesday"
     },
     {
-        id: 3,
-        name: "tricep extensions",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
+        bodyPart:"upper arms",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1738.gif",
+        id:"1738",
+        name:"dumbbell seated reverse grip one arm overhead tricep extension",
+        target:"triceps",
+        day: "Wednesday"
     },
     {
-        id: 4,
-        name: "get ups",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
+        bodyPart:"upper arms",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1771.gif",
+        id:"1771",
+        name:"bodyweight kneeling triceps extension",
+        target:"triceps",
+        day: "Wednesday"
     },
     {
-        id: 5,
-        name: "punches",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
+        bodyPart:"upper arms",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1731.gif",
+        id:"1731",
+        name:"dumbbell close grip press",
+        target:"triceps",
+        day: "Wednesday"
     },
     {
-        id: 6,
-        name: "side to side chops",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
+        bodyPart:"upper arms",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1399.gif",
+        id:"1399",
+        name:"bench dip on floor",
+        target:"triceps",
+        day: "Wednesday"
     },
     {
-        id: 7,
-        name: "one leg bridge",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
-    },
-    {
-        id: 8,
-        name: "hip thrusts",
-        sets: 3,
-        reps: 10,
-        target: 'triceps'
-    },
+        bodyPart:"upper arms",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0306.gif",
+        id:"0306",
+        name:"dumbbell decline triceps extension",
+        target:"triceps",
+        day: "Wednesday"
+    }
 ]
 
 //biceps
 export const thursday = [
     {
-        id: 1,
-        name: "leg curls",
-        sets: 3,
-        reps: 10,
-        target: "biceps"
+        bodyPart:"upper arms",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1770.gif",
+        id:"1770",
+        name:"biceps leg concentration curl",
+        target:"biceps",
+        day: "Thursday",
+        
     },
     {
-        id: 2,
-        name: "hiking pack curls",
-        sets: 3,
-        reps: 10,
-        target: "biceps"
+        bodyPart:"upper arms",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0285.gif",
+        id:"0285",
+        name:"dumbbell alternate biceps curl",
+        target:"biceps",
+        day: "Thursday",
+        
     },
     {
-        id: 3,
-        name: "door frame rows",
-        sets: 3,
-        reps: 10,
-        target: "biceps"
+        bodyPart:"upper arms",
+        equipment:"dumbbell",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/0294.gif",
+        id:"0294",
+        name:"dumbbell biceps curl",
+        target:"biceps",
+        day: "Thursday",
     },
     {
-        id: 4,
-        name: "body rows",
-        sets: 3,
-        reps: 10,
-        target: "biceps"
+        bodyPart:"upper arms",
+        equipment:"body weight",
+        gifUrl:"http://d205bpvrqc9yn1.cloudfront.net/1769.gif",
+        id:"1769",
+        name:"bodyweight side lying biceps curl",
+        target:"biceps",
+        day: "Thursday",
     },
-    {
-        id: 5,
-        name: "sitting pull ups",
-        sets: 3,
-        reps: 10,
-        target: "biceps"
-    },
-    {
-        id: 6,
-        name: "pseudo planche",
-        sets: 3,
-        reps: 10,
-        target: "biceps"
-    },
+
     {
         bodyPart:"upper arms",
         equipment:"dumbbell",
@@ -369,6 +371,7 @@ export const thursday = [
     }
 ]
 
+/// need to double check these exercises
 //BACK
 export const friday = [
     {
