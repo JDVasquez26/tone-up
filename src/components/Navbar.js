@@ -49,11 +49,17 @@ const Navbar = () => {
         >Exercises
         </a>
 
-        <Link to="/weekly-routine"
+        <a 
+        href="#weeklyroutine" 
+        style={{textDecoration:'none', color:'#3A1212'}}
+        > Jest's Routine
+        </a>
+
+        {/* <Link to="/weekly-routine"
           style={{textDecoration:'none', color:'#3A1212'}}
         >
           Jest's Routine
-        </Link>
+        </Link> */}
 
        
 
