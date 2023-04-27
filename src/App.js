@@ -10,7 +10,7 @@ import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import WeeklyRoutine from './pages/WeeklyRoutine';
+import WeeklyRoutine from './components/WeeklyRoutine';
 
 const App = () => {
   return (

@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 import Exercises from '../components/Exercises';
 import HeroBanner from '../components/HeroBanner';
 import SearchExercises from '../components/SearchExercises';
+import WeeklyRoutine from '../components/WeeklyRoutine'
 
 const Home = () => {
   // changes to these two states will be happening all 
@@ -23,7 +24,10 @@ const Home = () => {
       <Exercises 
       setExercises={setExercises} 
       exercises={exercises} 
-      bodyPart={bodyPart} />
+      bodyPart={bodyPart} 
+      />
+      <WeeklyRoutine
+      />
     </Box>
   )
 }
