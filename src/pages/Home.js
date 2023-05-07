@@ -26,8 +26,7 @@ const Home = () => {
       exercises={exercises} 
       bodyPart={bodyPart} 
       />
-      <WeeklyRoutine
-      />
+      <WeeklyRoutine/>
     </Box>
   )
 }

@@ -9,6 +9,7 @@ import Loader from './Loader';
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
+  console.log("exercises: ", exercises)
   // UseEffect for any time to bodyPart changes..
   // Important for when clicking the body part categories in searchExcises components
   useEffect(() => {

@@ -16,18 +16,18 @@ import Loader from './Loader';
 const WeeklyRoutine = () => {
   const [exercises, setExercises] = useState([]);
 
-  useEffect(() => {
-    // window.scrollTo({ top: 0, behavior: 'smooth' });
-    // function that makes all API calls for our details
-    const fetchExercisesData = async () => {
-      const exercisesData = await fetchData(
-        "https://exercisedb.p.rapidapi.com/exercises",
-        exerciseOptions
-      );
-      setExercises(exercisesData);
-    };
-    fetchExercisesData();
-  }, []);
+  // useEffect(() => {
+  //   // window.scrollTo({ top: 0, behavior: 'smooth' });
+  //   // function that makes all API calls for our details
+  //   const fetchExercisesData = async () => {
+  //     const exercisesData = await fetchData(
+  //       "https://exercisedb.p.rapidapi.com/exercises",
+  //       exerciseOptions
+  //     );
+  //     setExercises(exercisesData);
+  //   };
+  //   fetchExercisesData();
+  // }, []);
 
 //   console.log(exercises);
 

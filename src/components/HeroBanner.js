@@ -1,24 +1,31 @@
 import React from 'react';
 
+import { motion } from "framer-motion";
+import { fadeIn } from './utils/motion';
+
 import { Box, Typography, Button } from '@mui/material';
 
 import Image from "../assets/images/fitness-apps.png"
 import Heart from "../assets/icons/heart.gif"
 import Stretching from"../assets/icons/stretching.gif"
 import HomeStretch from "../assets/icons/homestretch.gif"
-{/* <img src={Heart} alt="wait until the page loads" style={{ width: 80, height: 80 }}/> */}
+
 const HeroBanner = () => {
   return (
     <Box
       sx={{
         // margin top on large devices
-        mt: { lg:'212px', sx: '70px'},
+        mt: { lg:'100px', sx: '70px'},
         //on small devices margin left
         ml: { sm:'50px'}
       }} 
       position="relative"
       p='20px'  // <-- padding
+      // border={'solid 1px black'}
+      component={motion.div}
+      variants={fadeIn("", "", 0.1, 1)}
     >
+
         <Typography
         color='#43DDE6'
         fontWeight="600"
@@ -68,6 +75,7 @@ const HeroBanner = () => {
         >
             Exercise
         </Typography>
+        
 
         <img 
         src={Stretching} 

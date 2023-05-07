@@ -1,4 +1,6 @@
 import React, { useState, useEffect} from 'react'
+import { motion } from "framer-motion";
+import { fadeIn } from './utils/motion';
 
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 
@@ -47,7 +49,10 @@ const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
   };
 
   return (
-    <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
+    <motion.div
+    variants={fadeIn("", "", 0.1, 1)}
+     >
+      <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       
       <Typography fontWeight={700}  mb="49px" textAlign="center"
       sx={{ fontSize: { lg: '40px', xs: '30px' } }}
@@ -92,6 +97,9 @@ const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
       </Box>
 
     </Stack>
+
+  </motion.div> 
+    
   )
 }
 
