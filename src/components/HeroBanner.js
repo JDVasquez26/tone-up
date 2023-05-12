@@ -5,10 +5,10 @@ import { fadeIn } from './utils/motion';
 
 import { Box, Typography, Button } from '@mui/material';
 
-import Image from "../assets/images/fitness-apps.png"
-import Heart from "../assets/icons/heart.gif"
+// import Image from "../assets/images/fitness-apps.png"
+// import Heart from "../assets/icons/heart.gif"
 import Stretching from"../assets/icons/stretching.gif"
-import HomeStretch from "../assets/icons/homestretch.gif"
+// import HomeStretch from "../assets/icons/homestretch.gif"
 
 const HeroBanner = () => {
   return (
