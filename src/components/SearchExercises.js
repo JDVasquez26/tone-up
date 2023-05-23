@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import { motion } from "framer-motion";
-import { fadeIn } from '../utils/motion';
+import { slideIn } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 
@@ -50,7 +51,7 @@ const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
 
   return (
     <motion.div
-    variants={fadeIn("", "", 0.1, 1)}
+    variants={slideIn("right", "tween", 0.2, 1)}
      >
       <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       
@@ -103,4 +104,5 @@ const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
   )
 }
 
-export default SearchExercises
+// export default SearchExercises
+export default SectionWrapper(SearchExercises, "");
