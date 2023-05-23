@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react'
 import { motion } from "framer-motion";
-import { fadeIn } from './utils/motion';
+import { fadeIn } from '../utils/motion';
 
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 

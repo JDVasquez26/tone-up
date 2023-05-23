@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { motion } from "framer-motion";
-import { fadeIn } from './utils/motion';
+import { slideIn } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 import { Box, Typography, Button } from '@mui/material';
 
-// import Image from "../assets/images/fitness-apps.png"
+import Image from "../assets/images/fitness-apps.png"
 // import Heart from "../assets/icons/heart.gif"
-import Stretching from"../assets/icons/stretching.gif"
+// import Stretching from"../assets/icons/stretching.gif"
 // import HomeStretch from "../assets/icons/homestretch.gif"
 
 const HeroBanner = () => {
@@ -22,10 +23,13 @@ const HeroBanner = () => {
       position="relative"
       p='20px'  // <-- padding
       // border={'solid 1px black'}
-      component={motion.div}
-      variants={fadeIn("", "", 0.1, 1)}
+      // variants={fadeIn("", "", 0.1, 1)}
     >
 
+{/* --------------slideIn Left------------------------- */}
+      <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)} 
+      >
         <Typography
         color='#43DDE6'
         fontWeight="600"
@@ -75,15 +79,21 @@ const HeroBanner = () => {
         >
             Exercise
         </Typography>
-        
-
+      {/* </motion.div>   */}
+{/* -------SlideIn Right----- */}
+      {/* <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+      > */}
         <img 
-        src={Stretching} 
+        src={Image} 
         alt='banner'
         className='hero-banner-img'
        />
+
+      </motion.div>
+       
     </Box>
   )
 }
 
-export default HeroBanner
+export default SectionWrapper(HeroBanner, "");
