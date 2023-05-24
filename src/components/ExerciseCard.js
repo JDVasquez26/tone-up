@@ -5,14 +5,7 @@ import { Button, Stack, Typography } from '@mui/material';
 import Tilt from 'react-parallax-tilt';
 
 const ExerciseCard = ({ exercise }) => (
-  <Tilt
-  className="parallax-effect-glare-scale"
-  perspective={500}
-  glareEnable={true}
-  glareMaxOpacity={0.45}
-  // scale={1.02}
-  gyroscope={true}
->
+  <Tilt>
     <Link 
     className="exercise-card" 
     to={`/exercise/${exercise.id}`}

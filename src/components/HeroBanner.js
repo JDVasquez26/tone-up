@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { motion } from "framer-motion";
-import { slideIn } from '../utils/motion';
+import { textVariant, slideIn } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 import { Box, Typography, Button } from '@mui/material';

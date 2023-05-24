@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom';
 //  https://mui.com/material-ui/react-stack/
 import { Stack } from '@mui/material';
 
+
+import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
+
 import Logo from '../assets/images/Logo.png'
 
 const Navbar = () => {
@@ -22,6 +27,7 @@ const Navbar = () => {
       }}
       px ='20px'  //<--padding x-axis
     >
+     
       <Link to="/">
         <img 
           src={Logo} 
@@ -29,44 +35,40 @@ const Navbar = () => {
           style={{ margin: '0 20px', width: '90px', height: '90px' }}
         />
       </Link>
-
-      <Stack
-        direction="row"
-        gap="40px"
-        sx={{ fontSize: { lg: '24px', xs: '15px' } }} 
-        // fontSize="24px"
-        alignItems="flex-end"
+      <motion.div
+        variants={textVariant()}
       >
-        <Link to="/"
-          style={{textDecoration:'none', color:'#3A1212', borderBottom:'3px solid #FF2625'}}
+        <Stack
+          direction="row"
+          gap="40px"
+          sx={{ fontSize: { lg: '24px', xs: '15px' } }} 
+          // fontSize="24px"
+          alignItems="flex-end"
         >
-          Home
-        </Link>
-  
-        <a 
-        href="#exercises" 
-        style={{textDecoration:'none', color:'#3A1212'}}
-        >Exercises
-        </a>
-
-        <a 
-        href="#weeklyroutine" 
-        style={{textDecoration:'none', color:'#3A1212'}}
-        > Jest's Routine
-        </a>
-
-        {/* <Link to="/weekly-routine"
+          <Link to="/"
+            style={{textDecoration:'none', color:'#3A1212', borderBottom:'3px solid #FF2625'}}
+          >
+            Home
+          </Link>
+    
+          <a 
+          href="#exercises" 
           style={{textDecoration:'none', color:'#3A1212'}}
-        >
-          Jest's Routine
-        </Link> */}
+          >Exercises
+          </a>
 
-       
+          <a 
+          href="#weeklyroutine" 
+          style={{textDecoration:'none', color:'#3A1212'}}
+          > Jest's Routine
+          </a>      
 
-      </Stack>
+        </Stack>
+      </motion.div>
 
     </Stack>
   )
 }
 
-export default Navbar
+// export default Navbar;
+export default SectionWrapper(Navbar, "")
