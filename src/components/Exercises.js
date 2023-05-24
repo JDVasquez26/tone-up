@@ -57,6 +57,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       mt="50px" 
       p="20px"
       sx={{ 
+        // backgroundColor: 'primary.dark',
         mt: { lg: '110px' } 
         }} 
     >
@@ -65,6 +66,8 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         variant="h4" 
         fontWeight="bold"  
         mb="46px"
+        // color="white"
+        align="center"
         sx={{ fontSize: 
           { lg: '44px', xs: '30px' } 
         }}
