@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Pagination from '@mui/material/Pagination';
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography} from '@mui/material';
 
 import { exerciseOptions, fetchData } from '../utils/fetchData';
 
@@ -57,7 +57,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       mt="50px" 
       p="20px"
       sx={{ 
-        // backgroundColor: 'primary.dark',
+       
         mt: { lg: '110px' } 
         }} 
     >
@@ -79,7 +79,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         direction="row" 
         flexWrap="wrap" 
         justifyContent="center"
-        sx={{ 
+        sx={{   boxShadow: 5, backgroundColor: 'rgba(67,221,230,.1)',
           gap: { lg: '107px', xs: '50px' } 
         }} 
       >

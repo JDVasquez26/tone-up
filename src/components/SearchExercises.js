@@ -104,5 +104,5 @@ const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
   )
 }
 
-// export default SearchExercises
-export default SectionWrapper(SearchExercises, "");
+export default SearchExercises
+// export default SectionWrapper(SearchExercises, "");

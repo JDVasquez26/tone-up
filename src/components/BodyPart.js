@@ -13,8 +13,9 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
         borderTop: bodyPart === item ?  '4px solid #43DDE6' : '',
         backgroundColor: '#fff', 
         borderBottomLeftRadius: '20px', 
+        boxShadow: bodyPart === item ? "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px": "",
         width: '270px', 
-        height: '282px', 
+        height: '300px', 
         cursor: 'pointer', 
         gap: '47px' }}
         onClick={() => {
